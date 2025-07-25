@@ -19,7 +19,7 @@ func main() {
 	myVar3 := "This is a shorthand declaration."
 	fmt.Println("Variable myVar3:", myVar3)
 
-	ahmed, ali := "Ahmed", "Ali"
+	ahmed, ali := "Ahmed", "Ali" // := shorthand for variable declaration and assignment
 	fmt.Println("Variables ahmed and ali:", ahmed, ali)
 
 	var Mere, Pere = "Mere", "Pere"
