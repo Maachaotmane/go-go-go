@@ -5,6 +5,11 @@ import (
 )
 
 func main() {
+	// Variable Declaration and Initialization
+	// In Go, variables can be declared using the `var` keyword or using shorthand notation
+	// Variables can be of different types, such as string, int, float, bool, etc.
+	// Here are some examples of variable declaration and initialization:
+	// Using var keyword
 	var myVar string = "Hello, Go!"
 	fmt.Println("Variable value:", myVar)
 

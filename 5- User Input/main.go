@@ -8,7 +8,10 @@ import (
 )
 
 func main() {
-	// Read a string value
+	// User Input in Go
+	// Go provides several ways to read user input from the console.
+	// The most common way is to use the `fmt.Scanln` function, which reads input until a newline character is encountered.
+	// Here is an example of reading different types of user input:
 	var name string
 	fmt.Print("Enter your name: ")
 	fmt.Scanln(&name)           // Read user input
